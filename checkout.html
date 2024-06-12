@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<title> </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Assets/CSS/Style.css">
+	<link rel="icon" href="Assets/Imagens/logotipo1.png">
+</head>
+<body>
+	<header>
+		<a href="#">
+			<img class="logotipo" src="Assets/Imagens/logotipo1.png" />
+		</a>
+		<nav class="topnav">
+			<a href="index.html"> Home </a>
+			<a href="index.html#cardapio"> Cardápio </a>
+			<a href="index.html#contato"> Contato </a>
+			<hr/>
+		</nav>
+		
+		<section>
+			<h1> Amburguer </h1>
+			<h2> Finalizando compra </h2>
+		</section>
+	</header>
+	
+	<form action="compra" method="post">
+	<!-- Nome do cliente -->
+		<label for="name"> Nome do cliente: </label><br/>
+		<input type="text" id="name"><br/>
+		
+	<!-- Nome do lanche -->	
+		<label for="lancheName"> Nome do Lanche:  </label><br/>
+		<input type="text" id="lancheName"><br/>
+		
+	<!-- Endereço -->	
+		<label for="address"> Endereço:  </label><br/>
+		<input type="text" id="address"> <br/>
+		
+	<!-- Telefone: -->
+		<label for="tel"> Telefone:</label><br>
+		<input type="tel" id="tel" name="tel"><br/>
+
+	<!-- Forma Pagamento -->
+		<label for="payment"> Forma de Pagamento:</label><br/>
+		<select id="payment" name="payment">
+			<option value="pix">Pix</option>
+			<option value="card">Cartão</option>
+		</select><br/><br/>
+		<input class="btn_comprar" type="submit" value="Finalizar compra">
+	</form>
+	
+	<footer id="contato">
+		<div class="contatos">
+			<a href="#">
+				<img src="Assets/Imagens/whatsapp.png"/>
+				<p> (12) 9 9999-0000 </p>
+			</a>
+		</div>
+		<div class="contatos">
+			<a href="#">
+				<img src="Assets/Imagens/instagram.png"/>
+				<p> @amburguer </p>
+			</a>
+		</div>
+	</footer>
+	
+</body>
+</html>

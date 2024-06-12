@@ -86,3 +86,21 @@ header{
 	text-transform:lower;
 	color:white;
 }
+
+/* Estilo para dispositivos mobile */
+@media only screen and (max-width: 600px)
+	{
+		#cardapio
+		{
+			margin:auto;
+			display:inline-block;
+			grid-template-columns: auto;
+		}
+
+		#contato
+		{
+			margin-top:10%;
+			display:inline-block;
+			grid-template-columns:auto;
+		}
+	}
